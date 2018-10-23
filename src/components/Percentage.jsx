@@ -6,12 +6,14 @@ class Percentage extends Component {
    return (
     <div className='container'>
      <div className='grid_container_percentage'>
-      <div className='grid_item_percentage_header'>
-       <h2>Lorem Ipsum</h2>
+      <div className='grid_item_header'>
+        <div className='section_header_regular'>
+          <span className='section_header_bold'>Lorem</span> Ipsum
+        </div>
       </div>
       <div className='grid_item_percentage_button'>
        <div>Lorem ipsum</div>
-       <button id='button_percentage'>Button</button>
+       <button id='button_percentage' data-toggle="modal" data-target="#exampleModalCenter" >Button</button>
       </div>
       <div className='grid_item_percentage'>
        <div>

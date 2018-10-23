@@ -2,6 +2,32 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.section_header_bold {
+  font-size: 28px;
+  font-weight: bold;
+  color: #F36819;
+}
+.section_header_regular {
+  font-size: 28px;
+  color: #283647
+}
+
+h2 {
+  font-size: 28px;
+  color: #F36819
+}
+
+h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #F7931D;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 button {
   background-image: linear-gradient(to right, #F36819 , #F7931D);
   border-radius: 5px;
@@ -73,7 +99,6 @@ button {
 
 .grid_container_percentage {
   display: grid;
-  /* justify-content: center; */
   padding: 90px;
 }
 
@@ -83,7 +108,7 @@ button {
 }
 
 
-.grid_item_percentage_header {
+.grid_item_header {
   display: flex;
   justify-content: center;
 }
@@ -94,6 +119,79 @@ button {
   padding: 30px;
 }
 
+/* -------------------------------DESCRIPTION------------------------- */
+
+.grid_container_description {
+  display: grid;
+}
+
+#description_img {
+  height: 350px;
+  width: 705px;
+}
+
+.grid_item_description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* -------------------------------FOOTER------------------------- */
+
+.footer {
+  background: #EEEEEE;
+  height: 300px;
+  padding-top: 30px;
+  margin-top: 70px;
+}
+
+/* -------------------------------MODAL------------------------- */
+
+.modal_label {
+  font-size: 12px;
+  color: white;
+}
+
+.modal-content {
+  background-color: transparent !important;
+  border: transparent !important;
+  padding: 30px;
+  display: grid;
+}
+
+.modal_enter_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.modal_enter_email_phone{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.modal_input{
+  width: 100%;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.modal_input_email_phone{
+  width: 200px;
+  border-radius: 5px;
+  height: 35px;
+}
 
 
+.modal_gap {
+  display: flex;
+  flex-direction: column;
+}
 
