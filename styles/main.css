@@ -1,3 +1,99 @@
-h1 {
-  font-size: 35px
+body {
+  font-family: 'Roboto', sans-serif;
 }
+
+button {
+  background-image: linear-gradient(to right, #F36819 , #F7931D);
+  border-radius: 5px;
+  color: white;
+}
+
+/* ---------------------------HEADER---------------------------------- */
+
+.header {
+  height: 60px;
+  background: #1676DD;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  padding: 10px;
+}
+
+/* ---------------------------CAROUSEL---------------------------------- */
+
+.carousel {
+  max-height: 509px;
+}
+
+/* ---------------------------PAGE---------------------------------- */
+
+
+.grid_container_page {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 90px 90px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.grid_item_page {
+  justify-self: center;
+  display: flex;
+  align-self: center;
+}
+
+#slanted_background {
+  width: 100%;
+}
+
+.slanted_text {
+  position: absolute;
+  z-index: 1;
+  top: 1000px;
+  left: 600px;
+  color: white;
+}
+
+/* ---------------------------PERCENTAGE---------------------------------- */
+
+#button_percentage {
+  width: 215px;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.percentage {
+  font-weight: bold; 
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+
+.grid_container_percentage {
+  display: grid;
+  /* justify-content: center; */
+  padding: 90px;
+}
+
+.grid_item_percentage {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.grid_item_percentage_header {
+  display: flex;
+  justify-content: center;
+}
+
+.grid_item_percentage_button {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+
+
+
