@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import envelopeIcon from './assets/envelope-icon.svg'
 
 class Carousel extends Component {
     render() {
@@ -12,13 +13,13 @@ class Carousel extends Component {
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img  style={{height: '509px'}} className="d-block w-100" src="src/components/assets/hero-img.jpg" alt="First slide"/>
+                 <div style={{height: '509px'}} id='carousel_image_hero' className="d-block w-100"/>
                 </div>
                 <div className="carousel-item">
-                <img  style={{height: '509px'}} className="d-block w-100" src="src/components/assets/img1.jpg" alt="Second slide"/>
+                 <div style={{height: '509px'}} id='carousel_image_1' className="d-block w-100"/>
                 </div>
                 <div className="carousel-item">
-                <img  style={{height: '509px'}} className="d-block w-100" src="src/components/assets/img2.jpg" alt="Third slide"/>
+                 <div style={{height: '509px'}} id='carousel_image_2' className="d-block w-100"/>
                 </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -29,6 +30,15 @@ class Carousel extends Component {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
             </a>
+            </div>
+            <div className='hero_box'>
+             <div className='hero_text'>Lorem Ipsum Lorem Ipsum</div>
+             <div className='hero_buttons'>
+              <button id='button_carousel' data-toggle="modal" data-target="#exampleModalCenter">Button</button>
+              <button id='button_envelope'>
+               <img src={envelopeIcon} alt='envelope'></img>
+              </button>
+             </div>
             </div>
         </div>
       )
