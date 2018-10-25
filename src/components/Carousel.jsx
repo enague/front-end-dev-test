@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import envelopeIcon from './assets/envelope-icon.svg'
 
 class Carousel extends Component {
     render() {
       return (
+        <div>
         <div className='carousel'>
             <div style={{height: '509px'}}id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -35,12 +35,10 @@ class Carousel extends Component {
              <div className='hero_text'>Lorem Ipsum Lorem Ipsum</div>
              <div className='hero_buttons'>
               <button id='button_carousel' data-toggle="modal" data-target="#exampleModalCenter">Button</button>
-              <button id='button_envelope'>
-               <img src={envelopeIcon} alt='envelope'></img>
-              </button>
              </div>
             </div>
         </div>
+      </div>
       )
     }
    }
